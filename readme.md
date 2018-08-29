@@ -16,66 +16,67 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 # Contents
 
-
-  * [Computing](#computing)
-    + [Programming Languages](#programming-languages)
-    + [Computing Clusters at MIT](#computing-clusters-at-mit)
+- [Legend](#legend)
+- [Computing](#computing)
+  * [Programming Languages](#programming-languages)
+  * [Computing Clusters at MIT](#computing-clusters-at-mit)
+- [Data Visualization](#data-visualization)
+  * [Data Visualization theory and guides](#data-visualization-theory-and-guides)
   * [Plotting](#plotting)
     + [Python Plotting](#python-plotting)
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
-  * [Writing](#writing)
-    + [TeX/LaTex](#tex-latex)
-    + [Markdown](#markdown)
-    + [Citations and Reference Management](#citations-and-reference-management)
-  * [Figures](#figures)
-    + [Drawing](#drawing)
-    + [Image Manipulation](#image-manipulation)
-  * [Data Visualization](#data-visualization)
-    + [Data Visualization theory and guides](#data-visualization-theory-and-guides)
-    + [General Design Tools](#general-design-tools)
-      - [Color](#color)
-      - [Fonts & Typography](#fonts---typography)
-      - [Icons](#icons)
-      - [Images](#images)
-  * [Poster Design](#poster-design)
-    + [Poster Design Tools](#poster-design-tools)
-    + [Poster Templates](#poster-templates)
-    + [Poster Galleries](#poster-galleries)
-  * [Scientific Software](#scientific-software)
-    + [Chemical Structures](#chemical-structures)
-    + [Analytical Chemistry](#analytical-chemistry)
-    + [Protein Structure Visualization](#protein-structure-visualization)
-    + [Plasmid Editors](#plasmid-editors)
-    + [Flow Cytometry](#flow-cytometry)
-    + [Microscopy Analysis](#microscopy-analysis)
-  * [Unsorted Weblinks](#unsorted-weblinks)
-  * [Professional Resources](#professional-resources)
-  * [Miscellaneous & Unsorted](#miscellaneous---unsorted)
-
+- [Writing](#writing)
+  * [TeX/LaTex](#tex-latex)
+  * [Markdown](#markdown)
+  * [Citations and Reference Management](#citations-and-reference-management)
+- [Figures](#figures)
+  * [Drawing](#drawing)
+  * [Image Manipulation](#image-manipulation)
+- [Design Tools & Resources](#design-tools---resources)
+  * [Color](#color)
+  * [Fonts & Typography](#fonts---typography)
+  * [Icons](#icons)
+  * [Images](#images)
+- [Poster Design](#poster-design)
+  * [Poster Design Tools](#poster-design-tools)
+  * [Poster Templates](#poster-templates)
+  * [Poster Galleries](#poster-galleries)
+- [Scientific Software](#scientific-software)
+  * [Chemical Structures](#chemical-structures)
+  * [Analytical Chemistry](#analytical-chemistry)
+  * [Protein Structure Visualization](#protein-structure-visualization)
+  * [Plasmid Editors](#plasmid-editors)
+  * [Flow Cytometry](#flow-cytometry)
+  * [Microscopy Analysis](#microscopy-analysis)
+- [Unsorted Weblinks](#unsorted-weblinks)
+- [Professional Resources](#professional-resources)
+- [Miscellaneous & Unsorted](#miscellaneous---unsorted)
 
 [License](#license)
+
+
 
 ## Legend
 
 | Symbol | Meaning |
 |:----------:|:-------:|
-|:Free:| no upfront cost|
+|:free:| no upfront cost|
 |:unlock:| open source |
 |:moneybag: | modest cost |
 |:moneybag::moneybag:| expensive |
 |:moneybag::moneybag::moneybag:| very expensive |
 |:trollface:| not a serious link |
-|:hankey:| Microsoft Office IP |
+|:hankey:| Microsoft IP |
 
 
 ## Computing
 
 ### Programming Languages
 
-- [R](https://www.r-project.org/) :free: - popular for bioinformatics, genomics, statistics; typically used with [RStudio](https://www.rstudio.com/) :free: using packages from [CRAN](https://cran.r-project.org/)
+- [R](https://www.r-project.org/) :free: :unlock: - popular for bioinformatics, genomics, statistics; typically used with [RStudio](https://www.rstudio.com/) :free: using packages from [CRAN](https://cran.r-project.org/)
 
-- [Python](https://www.python.org/) :free: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/)
+- [Python](https://www.python.org/) :free: :unlock: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/)
 
 - [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: :moneybag: :moneybag: - commercial, packaged. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source alternative.
 
@@ -148,7 +149,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### Citations and Reference Management
 
--   [Zotero](https://www.zotero.org/) :free:
+-   [Zotero](https://www.zotero.org/) :free: :unlock:
 -   [Mendeley](https://www.mendeley.com/) :free:
 -   EndNote :moneybag:
 -   Papers :moneybag:
@@ -161,16 +162,16 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 ### Drawing
 
 -   Adobe Illustrator :moneybag: :moneybag:
--   [Inkscape](https://inkscape.org/en/)
--   Microsoft Powerpoint
+-   [Inkscape](https://inkscape.org/en/) :free: :unlock:
+-   Microsoft Powerpoint :hankey:
 -   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :moneybag:
 
 ### Image Manipulation
 
--   Adobe Photoshop
--   [Affinity Designer](https://affinity.serif.com/en-us/designer/)
--   [GIMP](https://www.gimp.org/) The GNU Image Manipulation Program
--   ImageJ/Fiji
+-   Adobe Photoshop :moneybag: :moneybag:
+-   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :moneybag:
+-   [GIMP](https://www.gimp.org/) :free: :unlock: The GNU Image Manipulation Program
+-   ImageJ/Fiji :free: :unlock:
 
 
 
@@ -185,8 +186,8 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [Adobe Color CC](https://color.adobe.com/create/color-wheel/) - select color schemes based on color wheel and color harmony
 -   Ggsci - color plots
 -   [Viz-Palette](http://projects.susielu.com/viz-palette)
--   [GenZ Yellow](https://tul.imgix.net/content/article/gen-z-yellow.jpg?auto=format,compress&w=740&h=486&fit=crop&crop=edges)
--   [Millenial Pink](https://i.guim.co.uk/img/media/d0105731685e5b2b3daecf2fa00c9affaba832f1/0_0_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&usm=12&fit=max&s=264f8669796563668ae798cdc3073e35)
+-   [GenZ Yellow](https://tul.imgix.net/content/article/gen-z-yellow.jpg?auto=format,compress&w=740&h=486&fit=crop&crop=edges) :trollface:
+-   [Millenial Pink](https://i.guim.co.uk/img/media/d0105731685e5b2b3daecf2fa00c9affaba832f1/0_0_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&usm=12&fit=max&s=264f8669796563668ae798cdc3073e35) :trollface:
 
 ### Fonts & Typography
 
@@ -210,10 +211,10 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### Poster Design Tools
 
--   Adobe Illustrator
+-   Adobe Illustrator :moneybag: :moneybag:
 -   [Inkscape](https://inkscape.org/en/)
--   Microsoft Powerpoint
--   Adobe InDesign
+-   Microsoft Powerpoint :hankey:
+-   Adobe InDesign :moneybag: :moneybag:
 
 ### Poster Templates
 
@@ -242,16 +243,16 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### Plasmid Editors
 
-- [ApE](http://jorgensen.biology.utah.edu/wayned/ape/)
-- [Benchling](https://benchling.com/) - a web-based plasmid editor and database
-- [Geneious](link)
-- [SnapGene](link)
+- [ApE](http://jorgensen.biology.utah.edu/wayned/ape/) :free:
+- [Benchling](https://benchling.com/) - a web-based plasmid editor and database :free:
+- [Geneious](link) :moneybag:
+- [SnapGene](link) :moneybag:
 
 
 ### Flow Cytometry
 
-- [Flowjo](link)
-- [Cytoflow](http://bpteague.github.io/cytoflow/)
+- [Flowjo](link) :moneybag: :moneybag:
+- [Cytoflow](http://bpteague.github.io/cytoflow/) :free: :unlock:
 
 ### Microscopy Analysis
 
