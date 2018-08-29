@@ -117,8 +117,6 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### TeX/LaTex
 
-- \LaTeX \mu
-
 - [null](link)
 
 ### Markdown
