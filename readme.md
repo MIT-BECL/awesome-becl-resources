@@ -16,41 +16,43 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 # Contents
 
-- [Computing](#computing)
-  * [Programming Languages](#programming-languages)
-  * [Computing Clusters at MIT](#computing-clusters-at-mit)
-- [Plotting](#plotting)
-  * [Python Plotting](#python-plotting)
-  * [R Plotting](#r-plotting)
-  * [Other Plotting tools](#other-plotting-tools)
-- [Writing](#writing)
-  * [TeX/LaTex](#tex-latex)
-  * [Markdown](#markdown)
-  * [Citations and Reference Management](#citations-and-reference-management)
-- [Figures](#figures)
-  * [Drawing](#drawing)
-  * [Image Manipulation](#image-manipulation)
-- [Data Visualization](#data-visualization)
-  * [Data Visualization theory and guides](#data-visualization-theory-and-guides)
-  * [General Design Tools](#general-design-tools)
-    + [Color](#color)
-    + [Fonts](#fonts)
-    + [Icons](#icons)
-    + [Images](#images)
-- [Poster Design](#poster-design)
-  * [Poster Design Tools](#poster-design-tools)
-  * [Poster Templates](#poster-templates)
-  * [Poster Galleries](#poster-galleries)
-- [Scientific Software](#scientific-software)
-  * [Chemical Structures](#chemical-structures)
-  * [Analytical Chemistry](#analytical-chemistry)
-  * [Protein Structure Visualization](#protein-structure-visualization)
-  * [Plasmid Editors](#plasmid-editors)
-  * [Flow Cytometry](#flow-cytometry)
-  * [Microscopy Analysis](#microscopy-analysis)
-- [Unsorted Weblinks](#unsorted-weblinks)
-- [Professional Resources](#professional-resources--)
-- [Miscellaneous & Unsorted](#miscellaneous---unsorted)
+
+  * [Computing](#computing)
+    + [Programming Languages](#programming-languages)
+    + [Computing Clusters at MIT](#computing-clusters-at-mit)
+  * [Plotting](#plotting)
+    + [Python Plotting](#python-plotting)
+    + [R Plotting](#r-plotting)
+    + [Other Plotting tools](#other-plotting-tools)
+  * [Writing](#writing)
+    + [TeX/LaTex](#tex-latex)
+    + [Markdown](#markdown)
+    + [Citations and Reference Management](#citations-and-reference-management)
+  * [Figures](#figures)
+    + [Drawing](#drawing)
+    + [Image Manipulation](#image-manipulation)
+  * [Data Visualization](#data-visualization)
+    + [Data Visualization theory and guides](#data-visualization-theory-and-guides)
+    + [General Design Tools](#general-design-tools)
+      - [Color](#color)
+      - [Fonts & Typography](#fonts---typography)
+      - [Icons](#icons)
+      - [Images](#images)
+  * [Poster Design](#poster-design)
+    + [Poster Design Tools](#poster-design-tools)
+    + [Poster Templates](#poster-templates)
+    + [Poster Galleries](#poster-galleries)
+  * [Scientific Software](#scientific-software)
+    + [Chemical Structures](#chemical-structures)
+    + [Analytical Chemistry](#analytical-chemistry)
+    + [Protein Structure Visualization](#protein-structure-visualization)
+    + [Plasmid Editors](#plasmid-editors)
+    + [Flow Cytometry](#flow-cytometry)
+    + [Microscopy Analysis](#microscopy-analysis)
+  * [Unsorted Weblinks](#unsorted-weblinks)
+  * [Professional Resources](#professional-resources)
+  * [Miscellaneous & Unsorted](#miscellaneous---unsorted)
+
 
 [License](#license)
 
@@ -111,7 +113,11 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ## Writing
 
+-   [Comparison of different text editors](https://pandoc-scholar.github.io/)
+
 ### TeX/LaTex
+
+- \LaTeX \mu
 
 - [null](link)
 
@@ -145,36 +151,33 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   Adobe Photoshop
 -   [Affinity Designer](https://affinity.serif.com/en-us/designer/)
 -   [GIMP](https://www.gimp.org/) The GNU Image Manipulation Program
-
 -   ImageJ/Fiji
 
 ## Data Visualization
 
 ### Data Visualization theory and guides
--   [Trees, Maps, and Theorems: Effective Communication for Rational Minds Book by Jean-Luc Doumont](http://www.principiae.be/X0800.php)
+-   [Trees, Maps, and Theorems: Effective Communication for Rational Minds by Jean-Luc Doumont](http://www.principiae.be/X0800.php) - The CommLab Bible
 -   [http://serialmentor.com/dataviz/](http://serialmentor.com/dataviz/)
 -   [https://datavizcatalogue.com/](https://datavizcatalogue.com/)
 -   [http://www.cookbook-r.com/Graphs/](http://www.cookbook-r.com/Graphs/)
 -   [https://python-graph-gallery.com/](https://python-graph-gallery.com/)
--   [Comparison of different text editors](https://pandoc-scholar.github.io/)
 -   [https://www.data-to-viz.com/](https://www.data-to-viz.com/)
 
 ### General Design Tools
 
 #### Color
 
--   [ColorBrewer](http://colorbrewer2.org/) - web-based color palette tool with accessibility options
-        + [R package](https://cran.r-project.org/web/packages/RColorBrewer/index.html))
--   [Palettable](https://www.palettable.io) - similar to ColorBrewer with customizable color schemes
-        + [Python package](https://jiffyclub.github.io/palettable/)
+-   [ColorBrewer](http://colorbrewer2.org/) - web-based color palette tool with accessibility options ([R package](https://cran.r-project.org/web/packages/RColorBrewer/index.html))
+-   [Palettable](https://www.palettable.io) - similar to ColorBrewer with customizable color schemes ([Python package](https://jiffyclub.github.io/palettable/))
 -   [Adobe Color CC](https://color.adobe.com/create/color-wheel/) - select color schemes based on color wheel and color harmony
 -   Ggsci - color plots
 -   [Viz-Palette](http://projects.susielu.com/viz-palette)
 -   [GenZ Yellow](https://tul.imgix.net/content/article/gen-z-yellow.jpg?auto=format,compress&w=740&h=486&fit=crop&crop=edges)
 -   [Millenial Pink](https://i.guim.co.uk/img/media/d0105731685e5b2b3daecf2fa00c9affaba832f1/0_0_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&usm=12&fit=max&s=264f8669796563668ae798cdc3073e35)
 
-#### Fonts
+#### Fonts & Typography
 
+-   [Butterick’s Practical Typography](https://practicaltypography.com/) - typography best practices
 -   [Google Fonts](https://fonts.google.com/) - select from fonts based on characteristics
 -   [Canva](https://www.canva.com/font-combinations/) - font combinations based on starter font
 -   [Font Squirrel](https://www.fontsquirrel.com/) - downloadable fonts based on characteristics
@@ -235,7 +238,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 ### Flow Cytometry
 
 - [Flowjo](link)
-- [Cytoflow](link)
+- [Cytoflow](http://bpteague.github.io/cytoflow/)
 
 ### Microscopy Analysis
 
@@ -268,7 +271,6 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ## Miscellaneous & Unsorted
 
-- [Butterick’s Practical Typography](https://practicaltypography.com/)
 - [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/)
 
 ## License
