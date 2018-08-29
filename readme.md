@@ -118,7 +118,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 ### Markdown
 
 
--   [*Pandoc*](https://pandoc.org/) for switching between .doc/.tex/.md/etc file types
+-   [Pandoc](https://pandoc.org/) - for switching between .doc/.tex/.md/etc file types
 -   Microsoft Word
 
 ### Citations and Reference Management
@@ -170,8 +170,8 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [Adobe Color CC](https://color.adobe.com/create/color-wheel/) - select color schemes based on color wheel and color harmony
 -   Ggsci - color plots
 -   [Viz-Palette](http://projects.susielu.com/viz-palette)
--   GenZ - yellow
--   GenX - Millenial Pink
+-   [GenZ Yellow](https://tul.imgix.net/content/article/gen-z-yellow.jpg?auto=format,compress&w=740&h=486&fit=crop&crop=edges)
+-   [Millenial Pink](https://i.guim.co.uk/img/media/d0105731685e5b2b3daecf2fa00c9affaba832f1/0_0_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&usm=12&fit=max&s=264f8669796563668ae798cdc3073e35)
 
 #### Fonts
 
@@ -275,4 +275,4 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [*kjmclean*](https://github.com/kjmclean) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [*kjmclean*](https://github.mit.edu/kjmclean) has waived all copyright and related or neighboring rights to this work.
