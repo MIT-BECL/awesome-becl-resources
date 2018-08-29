@@ -56,19 +56,30 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 [License](#license)
 
+## Legend
+
+| Symbol | Meaning |
+|:----------:|:-------:|
+|:Free:| no upfront cost|
+|:unlock:| open source |
+|:moneybag: | modest cost |
+|:moneybag::moneybag:| expensive |
+|:moneybag::moneybag::moneybag:| very expensive |
+|:trollface:| not a serious link |
+|:hankey:| Microsoft Office IP |
 
 
 ## Computing
 
 ### Programming Languages
 
-- [R](https://www.r-project.org/) - popular for bioinformatics, genomics, statistics; typically used with [RStudio](https://www.rstudio.com/) using packages from [CRAN](https://cran.r-project.org/)
+- [R](https://www.r-project.org/) :free: - popular for bioinformatics, genomics, statistics; typically used with [RStudio](https://www.rstudio.com/) :free: using packages from [CRAN](https://cran.r-project.org/)
 
-- [Python](https://www.python.org/) – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/)
+- [Python](https://www.python.org/) :free: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/)
 
-- [MATLAB](https://www.mathworks.com/products/matlab.html) - commercial, packaged. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source alternative.
+- [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: :moneybag: :moneybag: - commercial, packaged. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source alternative.
 
--   Bash scripting - Unix environment
+-   Bash scripting :free: -  Unix environment
 
 ### Computing Clusters at MIT
 
@@ -78,10 +89,20 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 - Koch/Broad Clusters
 
+## Data Visualization
 
-## Plotting
+### Data Visualization theory and guides
 
-### Python Plotting
+-   [Trees, Maps, and Theorems: Effective Communication for Rational Minds by Jean-Luc Doumont](http://www.principiae.be/X0800.php) - The CommLab Bible
+-   [http://serialmentor.com/dataviz/](http://serialmentor.com/dataviz/)
+-   [https://datavizcatalogue.com/](https://datavizcatalogue.com/)
+-   [http://www.cookbook-r.com/Graphs/](http://www.cookbook-r.com/Graphs/)
+-   [https://python-graph-gallery.com/](https://python-graph-gallery.com/)
+-   [https://www.data-to-viz.com/](https://www.data-to-viz.com/)
+
+### Plotting
+
+#### Python Plotting
 
 -   matplotlib – the most popular plotting framework
 -   Pandas - table management
@@ -91,7 +112,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   altair – straightforward visualization framework, biased towards statistical plotting
 -   [Rpy2](http://rpy2.readthedocs.io/en/version\_2.8.x/) - use R code in jupyter notebook 
 
-### R Plotting
+#### R Plotting
 
 -   ggplot2 – the most popular plotting framework
 -   plotly – interactive web-based visualization
@@ -102,7 +123,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [reticulate](https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/) use python code in R markdown
 -   [RStudio cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
 
-### Other Plotting tools
+#### Other Plotting tools
 
 -   RAW – fast, easy graphs from Excel or CSV files
 -   Graphpad Prism – stand-alone plotting program
@@ -127,10 +148,10 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### Citations and Reference Management
 
--   [Zotero](https://www.zotero.org/)
--   [Mendeley](https://www.mendeley.com/)
--   EndNote
--   Papers
+-   [Zotero](https://www.zotero.org/) :free:
+-   [Mendeley](https://www.mendeley.com/) :free:
+-   EndNote :moneybag:
+-   Papers :moneybag:
 -   Readcube
 -   Jabref
 
@@ -139,10 +160,10 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### Drawing
 
--   Adobe Illustrator
+-   Adobe Illustrator :moneybag: :moneybag:
 -   [Inkscape](https://inkscape.org/en/)
 -   Microsoft Powerpoint
--   [Affinity Designer](https://affinity.serif.com/en-us/designer/)
+-   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :moneybag:
 
 ### Image Manipulation
 
@@ -151,19 +172,13 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [GIMP](https://www.gimp.org/) The GNU Image Manipulation Program
 -   ImageJ/Fiji
 
-## Data Visualization
 
-### Data Visualization theory and guides
--   [Trees, Maps, and Theorems: Effective Communication for Rational Minds by Jean-Luc Doumont](http://www.principiae.be/X0800.php) - The CommLab Bible
--   [http://serialmentor.com/dataviz/](http://serialmentor.com/dataviz/)
--   [https://datavizcatalogue.com/](https://datavizcatalogue.com/)
--   [http://www.cookbook-r.com/Graphs/](http://www.cookbook-r.com/Graphs/)
--   [https://python-graph-gallery.com/](https://python-graph-gallery.com/)
--   [https://www.data-to-viz.com/](https://www.data-to-viz.com/)
 
-### General Design Tools
 
-#### Color
+
+## Design Tools & Resources
+
+### Color
 
 -   [ColorBrewer](http://colorbrewer2.org/) - web-based color palette tool with accessibility options ([R package](https://cran.r-project.org/web/packages/RColorBrewer/index.html))
 -   [Palettable](https://www.palettable.io) - similar to ColorBrewer with customizable color schemes ([Python package](https://jiffyclub.github.io/palettable/))
@@ -173,7 +188,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [GenZ Yellow](https://tul.imgix.net/content/article/gen-z-yellow.jpg?auto=format,compress&w=740&h=486&fit=crop&crop=edges)
 -   [Millenial Pink](https://i.guim.co.uk/img/media/d0105731685e5b2b3daecf2fa00c9affaba832f1/0_0_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&usm=12&fit=max&s=264f8669796563668ae798cdc3073e35)
 
-#### Fonts & Typography
+### Fonts & Typography
 
 -   [Butterick’s Practical Typography](https://practicaltypography.com/) - typography best practices
 -   [Google Fonts](https://fonts.google.com/) - select from fonts based on characteristics
@@ -181,12 +196,12 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [Font Squirrel](https://www.fontsquirrel.com/) - downloadable fonts based on characteristics
 -   [Neue Haas Grotesk](http://www.fontbureau.com/nhg/)
 
-#### Icons
+### Icons
 
 -   [Noun Project](https://thenounproject.com/) - downloadable icons
 -   [IcoMoon](https://icomoon.io/) - more icons
 
-#### Images
+### Images
 
 -   [Unsplash](https://unsplash.com/) - downloadable high-quality images
 
@@ -269,7 +284,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ## Miscellaneous & Unsorted
 
-- [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/)
+
 
 ## License
 
