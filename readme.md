@@ -145,7 +145,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 - rapport
 - knitr - allows to convert markdown, R, and plots/tables to html or PDF files, similar to Jupyter for python
 - workflowr
-- here
+- here - makes it easy for users to set directories and paths
 - ROpenSci
 
 ### Python workflows
