@@ -143,7 +143,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 ### R workflows
 - [drake](https://github.com/ropensci/drake) :package: – toolkit to build reproducible workflows that scale
 - rapport
-- knitr
+- knitr - allows to convert markdown, R, and plots/tables to html or PDF files, similar to Jupyter for python
 - workflowr
 - here
 - ROpenSci
