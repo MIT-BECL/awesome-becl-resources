@@ -4,13 +4,13 @@
     <img width="500" height="350" src="media/awesomelogo.png" alt="commawesome">
     <br>
     <br>
-   
+
 <br>
 
 <div align="center">
 
 
-Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering Communication Lab](http://mitcommlab.mit.edu/be/) 
+Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering Communication Lab](http://mitcommlab.mit.edu/be/)
 
 <div align="left">
 
@@ -26,6 +26,9 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
     + [Python Plotting](#python-plotting)
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
+- [Reproducible Analysis](#reproducible)
+  * [R Workflows](#r-workflows)
+  * [Python Workflows](#python-workflows)
 - [Writing](#writing)
   * [TeX/LaTex](#tex-latex)
   * [Markdown](#markdown)
@@ -68,6 +71,8 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 |:moneybag::moneybag::moneybag:| very expensive |
 |:trollface:| not a serious link |
 |:hankey:| Microsoft IP |
+|:package:| Computing Package |
+|:notebook:| Resource |
 
 
 ## Computing
@@ -105,13 +110,13 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 #### Python Plotting
 
--   matplotlib – the most popular plotting framework
+-   [matplotlib](https://matplotlib.org/) – the most popular plotting framework
 -   Pandas - table management
 -   bokeh – interactive web-based visualization
--   seaborn – opinionated plotting framework for statistical visualizations
+-   [seaborn](https://seaborn.pydata.org/index.html) – opinionated plotting framework for statistical visualizations
 -   plotly – interactive web-based visualization
 -   altair – straightforward visualization framework, biased towards statistical plotting
--   [Rpy2](http://rpy2.readthedocs.io/en/version\_2.8.x/) - use R code in jupyter notebook 
+-   [Rpy2](http://rpy2.readthedocs.io/en/version\_2.8.x/) - use R code in jupyter notebook
 
 #### R Plotting
 
@@ -132,6 +137,19 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   Datawrapper – fast, easy graphs from Excel or CSV files
 -   Octave – Free version MATLAB
 -   [WebPlotDigitiazer](https://automeris.io/WebPlotDigitizer/)
+
+## Reproducible Analysis
+
+### R workflows
+- [drake](https://github.com/ropensci/drake) :package: – toolkit to build reproducible workflows that scale
+- rapport
+- knitr
+- workflowr
+- here
+- ROpenSci
+
+### Python workflows
+- [Crash course in reproducible research in Python](http://t-redactyl.io/blog/2016/10/a-crash-course-in-reproducible-research-in-python.html) :notebook:
 
 ## Writing
 
@@ -184,7 +202,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [ColorBrewer](http://colorbrewer2.org/) - web-based color palette tool with accessibility options ([R package](https://cran.r-project.org/web/packages/RColorBrewer/index.html))
 -   [Palettable](https://www.palettable.io) - similar to ColorBrewer with customizable color schemes ([Python package](https://jiffyclub.github.io/palettable/))
 -   [Adobe Color CC](https://color.adobe.com/create/color-wheel/) - select color schemes based on color wheel and color harmony
--   Ggsci - color plots
+-   [Ggsci](https://nanx.me/ggsci/) - color themes inspired by scientific journals, science fiction, and media
 -   [Viz-Palette](http://projects.susielu.com/viz-palette)
 -   [GenZ Yellow](https://tul.imgix.net/content/article/gen-z-yellow.jpg?auto=format,compress&w=740&h=486&fit=crop&crop=edges) :trollface:
 -   [Millenial Pink](https://i.guim.co.uk/img/media/d0105731685e5b2b3daecf2fa00c9affaba832f1/0_0_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&usm=12&fit=max&s=264f8669796563668ae798cdc3073e35) :trollface:
@@ -259,7 +277,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [CellProfiler](http://cellprofiler.org/)
 -   [ImageJ](https://imagej.nih.gov/ij/)
 
-## Unsorted Weblinks 
+## Unsorted Weblinks
 
 -   BLAST
 -   TCoffee
