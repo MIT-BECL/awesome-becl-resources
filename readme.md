@@ -27,6 +27,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
 - [Reproducible Analysis](#reproducible)
+  * [General Principles](#general-principles)
   * [R Workflows](#r-workflows)
   * [Python Workflows](#python-workflows)
 - [Writing](#writing)
@@ -139,6 +140,9 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [WebPlotDigitiazer](https://automeris.io/WebPlotDigitizer/)
 
 ## Reproducible Analysis
+
+### General Principles
+- [Naming files and projects](https://speakerdeck.com/jennybc/how-to-name-files) :notebook:, a slide deck compiled by Jenny Bryan (@JennyBryan), software engineer at RStudio
 
 ### R workflows
 - [drake](https://github.com/ropensci/drake) :package: – toolkit to build reproducible workflows that scale
