@@ -303,9 +303,12 @@ The MIT BE Communication Lab resources are also stored within this repository an
 ## Professional Resources
 
 - [Github Personal Webpage Boilerplate](https://academicpages.github.io/)
-- Incredible personal website examples
-    + [https://jef.works/](https://jef.works/)
-    + [https://www.nikhitasingh.com/](https://www.nikhitasingh.com/)
+- PhD/Post-Doctoral website examples
+    + [https://jef.works/](https://jef.works/) (Harvard, Bioinformatics)
+    + [https://www.nikhitasingh.com/](https://www.nikhitasingh.com/) (MIT Media Lab, AI)
+    + [https://davidlazar.org/](https://davidlazar.org/) (MIT CSAIL, Computing)
+    + [https://www.anishathalye.com/](https://www.anishathalye.com/) (MIT CSAIL, Computing)
+    + [https://slowkow.com/](https://slowkow.com/) (Harvard, Immunogenomics)
 
 ## Miscellaneous & Unsorted
 
