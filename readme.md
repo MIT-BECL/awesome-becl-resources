@@ -33,6 +33,7 @@ The MIT BE Communication Lab resources are also stored within this repository an
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
 - [Reproducible Analysis](#reproducible)
+  * [General Principles](#general-principles)
   * [R Workflows](#r-workflows)
   * [Python Workflows](#python-workflows)
 - [Writing](#writing)
@@ -146,12 +147,15 @@ The MIT BE Communication Lab resources are also stored within this repository an
 
 ## Reproducible Analysis
 
+### General Principles
+- [Naming files and projects](https://speakerdeck.com/jennybc/how-to-name-files) :notebook:, a slide deck compiled by Jenny Bryan (@JennyBryan), software engineer at RStudio
+
 ### R workflows
 - [drake](https://github.com/ropensci/drake) :package: – toolkit to build reproducible workflows that scale
 - rapport
-- knitr
+- knitr - allows to convert markdown, R, and plots/tables to html or PDF files, similar to Jupyter for python
 - workflowr
-- here
+- here - makes it easy for users to set directories and paths
 - ROpenSci
 
 ### Python workflows
