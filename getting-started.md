@@ -14,9 +14,9 @@ First, a repository is basically a folder, just like the folders on your compute
 
 2. Any files can be downloaded directly from the repository by clicking through the folders and files at the top. After clicking on a file, GitHub will attempt to show you a preview if it can. Otherwise, you can click the `Download` button in the top right corner.
 
-3. To download the entire repository, you can navigate to the (repository main page)[https://github.com/MIT-BECL/awesome-becl-resources] and click the green `Clone or Download` button, then click Download Zip.
+3. To download the entire repository, you can navigate to the [repository main page](https://github.com/MIT-BECL/awesome-becl-resources) and click the green `Clone or Download` button, then click Download Zip.
 
-4. **But**, this is against standard GitHub practice. The typical way to download a user's repository is through cloning. Cloning allows you to maintain an updated copy of this repository by pulling (updating) it.  If you are interested in learning GitHub, one way to get started is following this tutorial from (HubSpot)[https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners]. Afterwards, you can check out the documentation on (cloning a repository)[https://help.github.com/articles/cloning-a-repository/]. 
+4. **But**, this is against standard GitHub practice. The typical way to download a user's repository is through cloning. Cloning allows you to maintain an updated copy of this repository by pulling (updating) it.  If you are interested in learning GitHub, one way to get started is following this tutorial from [HubSpot](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners). Afterwards, you can check out the documentation on [cloning a repository](https://help.github.com/articles/cloning-a-repository/). 
 
 5. Lastly, you can open up **Issues** by navigating to the Issues tab on the repository main page and clicking `New Issue`. A Communication Fellow will respond promptly to any issue you may have using the resources provided here.
 
