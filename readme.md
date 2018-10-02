@@ -215,7 +215,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 ### Image Manipulation
 
--   Adobe Photoshop :dollar:
+-   Adobe Photoshop :moneybag:
 -   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :dollar:
 -   [GIMP](https://www.gimp.org/) :free: :unlock: The GNU Image Manipulation Program
 -   ImageJ/Fiji :free: :unlock:
