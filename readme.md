@@ -198,8 +198,8 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 -   [Zotero](https://www.zotero.org/) :free: :unlock:
 -   [Mendeley](https://www.mendeley.com/) :free:
--   EndNote :moneybag:
--   Papers :moneybag:
+-   EndNote :dollar:
+-   Papers :dollar:
 -   Readcube
 -   Jabref
 
@@ -208,15 +208,15 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 ### Drawing
 
--   Adobe Illustrator :moneybag: :moneybag:
+-   Adobe Illustrator :moneybag:
 -   [Inkscape](https://inkscape.org/en/) :free: :unlock:
 -   Microsoft Powerpoint :hankey:
--   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :moneybag:
+-   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :dollar:
 
 ### Image Manipulation
 
--   Adobe Photoshop :moneybag: :moneybag:
--   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :moneybag:
+-   Adobe Photoshop :dollar:
+-   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :dollar:
 -   [GIMP](https://www.gimp.org/) :free: :unlock: The GNU Image Manipulation Program
 -   ImageJ/Fiji :free: :unlock:
 
@@ -258,10 +258,10 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 ### Poster Design Tools
 
--   Adobe Illustrator :moneybag: :moneybag:
+-   Adobe Illustrator :moneybag:
 -   [Inkscape](https://inkscape.org/en/)
 -   Microsoft Powerpoint :hankey:
--   Adobe InDesign :moneybag: :moneybag:
+-   Adobe InDesign :moneybag:
 
 ### Poster Templates
 
@@ -298,7 +298,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 ### Flow Cytometry
 
-- [Flowjo](link) :moneybag: :moneybag:
+- [Flowjo](link) :moneybag:
 - [Cytoflow](http://bpteague.github.io/cytoflow/) :free: :unlock:
 
 ### Microscopy Analysis
