@@ -19,6 +19,15 @@ Below is a list of resources compiled for BE Communication Lab fellows relevant 
 
 The MIT BE Communication Lab resources are also stored within this repository and are highlighted within the list below. If you have any questions, email us at `becl@mit.edu`.
 
+This list compiles resources to transform data into a clear message through:
+- **data analysis and visualization,**
+- **figure design,**
+- **writing and reference management,**
+- **design tools and resources,**
+- **professional resources.**
+
+It also includes **resources for reproducibility** and miscellaneous tools for biological engineering research (e.g. plasmid design, flow cytometry analysis, next-generation sequencing).
+
 ---
 
 # Contents
@@ -113,7 +122,7 @@ The MIT BE Communication Lab resources are also stored within this repository an
 
 ## Data Visualization
 
-### Data Visualization theory and guides
+### Data Visualization Resources
 
 -   [Trees, Maps, and Theorems: Effective Communication for Rational Minds by Jean-Luc Doumont](http://www.principiae.be/X0800.php) - The CommLab Bible
 -   [http://serialmentor.com/dataviz/](http://serialmentor.com/dataviz/)
@@ -122,7 +131,7 @@ The MIT BE Communication Lab resources are also stored within this repository an
 -   [https://python-graph-gallery.com/](https://python-graph-gallery.com/)
 -   [https://www.data-to-viz.com/](https://www.data-to-viz.com/)
 
-### Plotting
+### Plotting Tools
 
 #### Python Plotting
 
