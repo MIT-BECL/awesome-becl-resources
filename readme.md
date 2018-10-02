@@ -13,13 +13,14 @@
 Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering Communication Lab](http://mitcommlab.mit.edu/be/)
 
 <div align="left">
-    
+
 # Getting started
 Below is a list of resources compiled for BE Communication Lab fellows relevant to undergraduate, graduate students, and postdocs at MIT. Although there are some MIT-specific resources, this list is also relevant to any STEM student/researcher.
 
 The MIT BE Communication Lab resources are also stored within this repository and are highlighted within the list below. If you have any questions, email us at `becl@mit.edu`.
-    
-   
+
+---
+
 # Contents
 
 - [Legend](#legend)
@@ -27,8 +28,8 @@ The MIT BE Communication Lab resources are also stored within this repository an
   * [Programming Languages](#programming-languages)
   * [Computing Clusters at MIT](#computing-clusters-at-mit)
 - [Data Visualization](#data-visualization)
-  * [Data Visualization theory and guides](#data-visualization-theory-and-guides)
-  * [Plotting](#plotting)
+  * [General Data Viz. Resources](#data-visualization-theory-and-guides)
+  * [Plotting Tools](#plotting)
     + [Python Plotting](#python-plotting)
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
@@ -65,42 +66,50 @@ The MIT BE Communication Lab resources are also stored within this repository an
 
 [License](#license)
 
-
-
 ## Legend
 
 | Symbol | Meaning |
 |:----------:|:-------:|
 |:free:| no upfront cost|
 |:unlock:| open source |
-|:moneybag: | modest cost |
-|:moneybag::moneybag:| expensive |
-|:moneybag::moneybag::moneybag:| very expensive |
-|:trollface:| not a serious link |
-|:hankey:| Microsoft IP |
+|:dollar: | small cost |
+|:moneybag:| large cost|
 |:package:| Computing Package |
-|:notebook:| Resource |
+|:books:| Resource |
 
+---
 
 ## Computing
 
-### Programming Languages
+### Programming
+*Students typical use the follow resources to analyze and plot data for class and research purposes.*
+
+- [Python](https://www.python.org/) :free: :unlock: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/), a package and environment manager
 
 - [R](https://www.r-project.org/) :free: :unlock: - popular for bioinformatics, genomics, statistics; typically used with [RStudio](https://www.rstudio.com/) :free: using packages from [CRAN](https://cran.r-project.org/)
 
-- [Python](https://www.python.org/) :free: :unlock: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/)
+- [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: - commercial computing environment offered at MIT for affiliates. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source :unlock: alternative.
 
-- [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: :moneybag: :moneybag: - commercial, packaged. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source alternative.
-
--   Bash scripting :free: -  Unix environment
+- Other computing languages/platforms used include [Julia](https://julialang.org/) and  [Go](https://golang.org/), but their user bases are much smaller.
 
 ### Computing Clusters at MIT
+*Computing clusters are available at MIT and affiliate institutions for use by students and non-affiliates.*  
 
-- [C3DDB](https://www.mghpcc.org/resources/computer-systems-at-the-mghpcc/c3ddb/)
+- [Athena](https://ist.mit.edu/athena?category=19) – computing environment offering remote environments with pre-installed software and file storage
 
-- AWS/ Google Cloud - Researcher credits
+- [TIG](https://tig.csail.mit.edu/) - CSAIL group offering computing services
 
-- Koch/Broad Clusters
+- [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), [Microsoft Azure](https://azure.microsoft.com/en-us/) - commercially available services simple to setup with researcher funds
+
+- [C3DDB](https://www.mghpcc.org/resources/computer-systems-at-the-mghpcc/c3ddb/) - Boston-wide resource for life science researchers
+
+- [Koch Institute Bioinformatics & Computing Core](https://ki.mit.edu/sbc/bioinformatics/services) - offers a variety of cloud computing resources
+
+- [McGovern Institute Core](https://mcgovern.mit.edu/technology/high-performance-computing-cluster) - Linux-based cluster offering storage and CPU/GPU performance
+
+- Other institutes (e.g. Broad Institute) and groups offer internal computing resources, inquire directly to gain access
+
+---
 
 ## Data Visualization
 
