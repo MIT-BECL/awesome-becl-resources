@@ -13,13 +13,23 @@
 Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering Communication Lab](http://mitcommlab.mit.edu/be/)
 
 <div align="left">
-    
+
 # Getting started
 Below is a list of resources compiled for BE Communication Lab fellows relevant to undergraduate, graduate students, and postdocs at MIT. Although there are some MIT-specific resources, this list is also relevant to any STEM student/researcher.
 
 The MIT BE Communication Lab resources are also stored within this repository and are highlighted within the list below. If you have any questions, email us at `becl@mit.edu`.
-    
-   
+
+This list compiles resources to transform data into a clear message through:
+- **data analysis and visualization,**
+- **figure design,**
+- **writing and reference management,**
+- **design tools and resources,**
+- **professional resources.**
+
+It also includes **resources for reproducibility** and miscellaneous tools for biological engineering research (e.g. plasmid design, flow cytometry analysis, next-generation sequencing).
+
+---
+
 # Contents
 
 - [Legend](#legend)
@@ -27,8 +37,8 @@ The MIT BE Communication Lab resources are also stored within this repository an
   * [Programming Languages](#programming-languages)
   * [Computing Clusters at MIT](#computing-clusters-at-mit)
 - [Data Visualization](#data-visualization)
-  * [Data Visualization theory and guides](#data-visualization-theory-and-guides)
-  * [Plotting](#plotting)
+  * [General Data Viz. Resources](#data-visualization-theory-and-guides)
+  * [Plotting Tools](#plotting)
     + [Python Plotting](#python-plotting)
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
@@ -65,46 +75,54 @@ The MIT BE Communication Lab resources are also stored within this repository an
 
 [License](#license)
 
-
-
 ## Legend
 
 | Symbol | Meaning |
 |:----------:|:-------:|
 |:free:| no upfront cost|
 |:unlock:| open source |
-|:moneybag: | modest cost |
-|:moneybag::moneybag:| expensive |
-|:moneybag::moneybag::moneybag:| very expensive |
-|:trollface:| not a serious link |
-|:hankey:| Microsoft IP |
+|:dollar: | small cost |
+|:moneybag:| large cost|
 |:package:| Computing Package |
-|:notebook:| Resource |
+|:books:| Resource |
 
+---
 
 ## Computing
 
-### Programming Languages
+### Programming
+*Students typical use the follow resources to analyze and plot data for class and research purposes.*
+
+- [Python](https://www.python.org/) :free: :unlock: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/), a package and environment manager
 
 - [R](https://www.r-project.org/) :free: :unlock: - popular for bioinformatics, genomics, statistics; typically used with [RStudio](https://www.rstudio.com/) :free: using packages from [CRAN](https://cran.r-project.org/)
 
-- [Python](https://www.python.org/) :free: :unlock: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/)
+- [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: - commercial computing environment offered at MIT for affiliates. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source :unlock: alternative.
 
-- [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: :moneybag: :moneybag: - commercial, packaged. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source alternative.
-
--   Bash scripting :free: -  Unix environment
+- Other computing languages/platforms used include [Julia](https://julialang.org/) and  [Go](https://golang.org/), but their user bases are much smaller.
 
 ### Computing Clusters at MIT
+*Computing clusters are available at MIT and affiliate institutions for use by students and non-affiliates.*  
 
-- [C3DDB](https://www.mghpcc.org/resources/computer-systems-at-the-mghpcc/c3ddb/)
+- [Athena](https://ist.mit.edu/athena?category=19) – computing environment offering remote environments with pre-installed software and file storage
 
-- AWS/ Google Cloud - Researcher credits
+- [TIG](https://tig.csail.mit.edu/) - CSAIL group offering computing services
 
-- Koch/Broad Clusters
+- [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), [Microsoft Azure](https://azure.microsoft.com/en-us/) - commercially available services simple to setup with researcher funds
+
+- [C3DDB](https://www.mghpcc.org/resources/computer-systems-at-the-mghpcc/c3ddb/) - Boston-wide resource for life science researchers
+
+- [Koch Institute Bioinformatics & Computing Core](https://ki.mit.edu/sbc/bioinformatics/services) - offers a variety of cloud computing resources
+
+- [McGovern Institute Core](https://mcgovern.mit.edu/technology/high-performance-computing-cluster) - Linux-based cluster offering storage and CPU/GPU performance
+
+- Other institutes (e.g. Broad Institute) and groups offer internal computing resources, inquire directly to gain access
+
+---
 
 ## Data Visualization
 
-### Data Visualization theory and guides
+### Data Visualization Resources
 
 -   [Trees, Maps, and Theorems: Effective Communication for Rational Minds by Jean-Luc Doumont](http://www.principiae.be/X0800.php) - The CommLab Bible
 -   [http://serialmentor.com/dataviz/](http://serialmentor.com/dataviz/)
@@ -112,8 +130,9 @@ The MIT BE Communication Lab resources are also stored within this repository an
 -   [http://www.cookbook-r.com/Graphs/](http://www.cookbook-r.com/Graphs/)
 -   [https://python-graph-gallery.com/](https://python-graph-gallery.com/)
 -   [https://www.data-to-viz.com/](https://www.data-to-viz.com/)
+- [Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl?ie=UTF8&qid=1477928463&sr=8-1&keywords=the+grammar+of+graphics&linkCode=sl1&tag=ggplot2-20&linkId=f0130e557161b83fbe97ba0e9175c431):books::moneybag: - landmark book on foundations in data visualization
 
-### Plotting
+### Plotting Tools
 
 #### Python Plotting
 
@@ -126,15 +145,15 @@ The MIT BE Communication Lab resources are also stored within this repository an
 -   [Rpy2](http://rpy2.readthedocs.io/en/version\_2.8.x/) - use R code in jupyter notebook
 
 #### R Plotting
-
--   ggplot2 – the most popular plotting framework
--   plotly – interactive web-based visualization
--   rbokeh – interactive web-based visualization (built as interface to Python version)
--   shiny – interactive charts, applications, and websites
--   visNetwork – network plotting
--   ggvis – similar to ggplot2, but can create rich, interactive plots
--   [reticulate](https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/) use python code in R markdown
--   [RStudio cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+*This is an opinionated summary of key tools for plotting in R, focusing primarily on the [tidyverse](https://www.tidyverse.org/) group of packages*:package:*.*
+-   [ggplot2](https://ggplot2.tidyverse.org/):package::unlock: – the most popular plotting framework based on the book, *Grammar of Graphics*
+-   [plotly](https://plot.ly/):package::unlock: – commercially supported interactive web-based visualization tools
+-   [Shiny](https://shiny.rstudio.com/):package::unlock: – interactive charts and applications on the web, great for displaying public data and generating publication website
+-   [reticulate](https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/):package::unlock: - interface with Python via R
+-   [ggplot2 Cheatsheet sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf):books: - quick overview of ggplot2 plotting functions and aesthetics
+- [ggplot2 Tutorial](https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html#introduction):books: - Harvard tutorial on getting started with ggplot2
+- [R Graph Gallery](https://www.r-graph-gallery.com/):books: - gallery of plots generated using R
+- [R for Data  Science](http://r4ds.had.co.nz/):books: - a **comprehensive** resource to become proficient at using R for all data science needs, written by lead instructors at [RStudio](https://www.rstudio.com/)
 
 #### Other Plotting tools
 
@@ -167,7 +186,7 @@ The MIT BE Communication Lab resources are also stored within this repository an
 
 ### TeX/LaTex
 
-- [null](link)
+- [Rticles](https://github.com/rstudio/rticles)
 
 ### Markdown
 
@@ -322,4 +341,4 @@ The MIT BE Communication Lab resources are also stored within this repository an
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [*kjmclean*](https://github.mit.edu/kjmclean) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [*MIT BECL*](https://github.com/MIT-BECL) has waived all copyright and related or neighboring rights to the compilation of this list, but not the resources included.
