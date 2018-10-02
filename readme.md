@@ -130,6 +130,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   [http://www.cookbook-r.com/Graphs/](http://www.cookbook-r.com/Graphs/)
 -   [https://python-graph-gallery.com/](https://python-graph-gallery.com/)
 -   [https://www.data-to-viz.com/](https://www.data-to-viz.com/)
+- [Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl?ie=UTF8&qid=1477928463&sr=8-1&keywords=the+grammar+of+graphics&linkCode=sl1&tag=ggplot2-20&linkId=f0130e557161b83fbe97ba0e9175c431):books::moneybag: - landmark book on foundations in data visualization
 
 ### Plotting Tools
 
@@ -144,15 +145,15 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   [Rpy2](http://rpy2.readthedocs.io/en/version\_2.8.x/) - use R code in jupyter notebook
 
 #### R Plotting
-
--   ggplot2 – the most popular plotting framework
--   plotly – interactive web-based visualization
--   rbokeh – interactive web-based visualization (built as interface to Python version)
--   shiny – interactive charts, applications, and websites
--   visNetwork – network plotting
--   ggvis – similar to ggplot2, but can create rich, interactive plots
--   [reticulate](https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/) use python code in R markdown
--   [RStudio cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+*This is an opinionated summary of key tools for plotting in R, focusing primarily on the [tidyverse](https://www.tidyverse.org/) group of packages*:package:*.*
+-   [ggplot2](https://ggplot2.tidyverse.org/):package::unlock: – the most popular plotting framework based on the book, *Grammar of Graphics*
+-   [plotly](https://plot.ly/):package::unlock: – commercially supported interactive web-based visualization tools
+-   [Shiny](https://shiny.rstudio.com/):package::unlock: – interactive charts and applications on the web, great for displaying public data and generating publication website
+-   [reticulate](https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/):package::unlock: - interface with Python via R
+-   [ggplot2 Cheatsheet sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf):books: - quick overview of ggplot2 plotting functions and aesthetics
+- [ggplot2 Tutorial](https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html#introduction):books: - Harvard tutorial on getting started with ggplot2
+- [R Graph Gallery](https://www.r-graph-gallery.com/):books: - gallery of plots generated using R
+- [R for Data  Science](http://r4ds.had.co.nz/):books: - a **comprehensive** resource to become proficient at using R for all data science needs, written by lead instructors at [RStudio](https://www.rstudio.com/)
 
 #### Other Plotting tools
 
