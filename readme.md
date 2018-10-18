@@ -27,7 +27,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
 - [Writing](#writing)
-  * [TeX/LaTex](#tex-latex)
+  * [TeX/LaTex](#TeX/LaTex)
   * [Markdown](#markdown)
   * [Citations and Reference Management](#citations-and-reference-management)
 - [Figures](#figures)
