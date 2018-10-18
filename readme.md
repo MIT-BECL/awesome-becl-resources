@@ -4,15 +4,31 @@
     <img width="500" height="350" src="media/awesomelogo.png" alt="commawesome">
     <br>
     <br>
-   
+
 <br>
 
 <div align="center">
 
 
-Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering Communication Lab](http://mitcommlab.mit.edu/be/) 
+Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering Communication Lab](http://mitcommlab.mit.edu/be/)
 
 <div align="left">
+
+# Getting started
+Below is a list of resources compiled for BE Communication Lab fellows relevant to undergraduate, graduate students, and postdocs at MIT. Although there are some MIT-specific resources, this list is also relevant to any STEM student/researcher.
+
+The MIT BE Communication Lab resources are also stored within this repository and are highlighted within the list below. If you have any questions, email us at `becl@mit.edu`.
+
+This list compiles resources to transform data into a clear message through:
+- **data analysis and visualization,**
+- **figure design,**
+- **writing and reference management,**
+- **design tools and resources,**
+- **professional resources.**
+
+It also includes **resources for reproducibility** and miscellaneous tools for biological engineering research (e.g. plasmid design, flow cytometry analysis, next-generation sequencing).
+
+---
 
 # Contents
 
@@ -21,11 +37,15 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
   * [Programming Languages](#programming-languages)
   * [Computing Clusters at MIT](#computing-clusters-at-mit)
 - [Data Visualization](#data-visualization)
-  * [Data Visualization theory and guides](#data-visualization-theory-and-guides)
-  * [Plotting](#plotting)
+  * [General Data Viz. Resources](#data-visualization-theory-and-guides)
+  * [Plotting Tools](#plotting)
     + [Python Plotting](#python-plotting)
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
+- [Reproducible Analysis](#reproducible)
+  * [General Principles](#general-principles)
+  * [R Workflows](#r-workflows)
+  * [Python Workflows](#python-workflows)
 - [Writing](#writing)
   * [TeX/LaTex](#tex-latex)
   * [Markdown](#markdown)
@@ -55,44 +75,54 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 [License](#license)
 
-
-
 ## Legend
 
 | Symbol | Meaning |
 |:----------:|:-------:|
 |:free:| no upfront cost|
 |:unlock:| open source |
-|:moneybag: | modest cost |
-|:moneybag::moneybag:| expensive |
-|:moneybag::moneybag::moneybag:| very expensive |
-|:trollface:| not a serious link |
-|:hankey:| Microsoft IP |
+|:dollar: | small cost |
+|:moneybag:| large cost|
+|:package:| Computing Package |
+|:books:| Resource |
 
+---
 
 ## Computing
 
-### Programming Languages
+### Programming
+*Students typical use the follow resources to analyze and plot data for class and research purposes.*
+
+- [Python](https://www.python.org/) :free: :unlock: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/), a package and environment manager
 
 - [R](https://www.r-project.org/) :free: :unlock: - popular for bioinformatics, genomics, statistics; typically used with [RStudio](https://www.rstudio.com/) :free: using packages from [CRAN](https://cran.r-project.org/)
 
-- [Python](https://www.python.org/) :free: :unlock: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/)
+- [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: - commercial computing environment offered at MIT for affiliates. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source :unlock: alternative.
 
-- [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: :moneybag: :moneybag: - commercial, packaged. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source alternative.
-
--   Bash scripting :free: -  Unix environment
+- Other computing languages/platforms used include [Julia](https://julialang.org/) and  [Go](https://golang.org/), but their user bases are much smaller.
 
 ### Computing Clusters at MIT
+*Computing clusters are available at MIT and affiliate institutions for use by students and non-affiliates.*  
 
-- [C3DDB](https://www.mghpcc.org/resources/computer-systems-at-the-mghpcc/c3ddb/)
+- [Athena](https://ist.mit.edu/athena?category=19) – computing environment offering remote environments with pre-installed software and file storage
 
-- AWS/ Google Cloud - Researcher credits
+- [TIG](https://tig.csail.mit.edu/) - CSAIL group offering computing services
 
-- Koch/Broad Clusters
+- [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), [Microsoft Azure](https://azure.microsoft.com/en-us/) - commercially available services simple to setup with researcher funds
+
+- [C3DDB](https://www.mghpcc.org/resources/computer-systems-at-the-mghpcc/c3ddb/) - Boston-wide resource for life science researchers
+
+- [Koch Institute Bioinformatics & Computing Core](https://ki.mit.edu/sbc/bioinformatics/services) - offers a variety of cloud computing resources
+
+- [McGovern Institute Core](https://mcgovern.mit.edu/technology/high-performance-computing-cluster) - Linux-based cluster offering storage and CPU/GPU performance
+
+- Other institutes (e.g. Broad Institute) and groups offer internal computing resources, inquire directly to gain access
+
+---
 
 ## Data Visualization
 
-### Data Visualization theory and guides
+### Data Visualization Resources
 
 -   [Trees, Maps, and Theorems: Effective Communication for Rational Minds by Jean-Luc Doumont](http://www.principiae.be/X0800.php) - The CommLab Bible
 -   [http://serialmentor.com/dataviz/](http://serialmentor.com/dataviz/)
@@ -100,29 +130,31 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [http://www.cookbook-r.com/Graphs/](http://www.cookbook-r.com/Graphs/)
 -   [https://python-graph-gallery.com/](https://python-graph-gallery.com/)
 -   [https://www.data-to-viz.com/](https://www.data-to-viz.com/)
+- [Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl?ie=UTF8&qid=1477928463&sr=8-1&keywords=the+grammar+of+graphics&linkCode=sl1&tag=ggplot2-20&linkId=f0130e557161b83fbe97ba0e9175c431):books::moneybag: - landmark book on foundations in data visualization
+- [Plotting One Variable Distributions](https://github.com/joshpeters/One-Variable-Plotting-Cheatsheet) - BECL-produced resource for plotting bar graphs, boxplots, violin plots, and more. Includes example data set and raw code files.
 
-### Plotting
+### Plotting Tools
 
 #### Python Plotting
 
--   matplotlib – the most popular plotting framework
+-   [matplotlib](https://matplotlib.org/) – the most popular plotting framework
 -   Pandas - table management
 -   bokeh – interactive web-based visualization
--   seaborn – opinionated plotting framework for statistical visualizations
+-   [seaborn](https://seaborn.pydata.org/index.html) – opinionated plotting framework for statistical visualizations
 -   plotly – interactive web-based visualization
 -   altair – straightforward visualization framework, biased towards statistical plotting
--   [Rpy2](http://rpy2.readthedocs.io/en/version\_2.8.x/) - use R code in jupyter notebook 
+-   [Rpy2](http://rpy2.readthedocs.io/en/version\_2.8.x/) - use R code in jupyter notebook
 
 #### R Plotting
-
--   ggplot2 – the most popular plotting framework
--   plotly – interactive web-based visualization
--   rbokeh – interactive web-based visualization (built as interface to Python version)
--   shiny – interactive charts, applications, and websites
--   visNetwork – network plotting
--   ggvis – similar to ggplot2, but can create rich, interactive plots
--   [reticulate](https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/) use python code in R markdown
--   [RStudio cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+*This is an opinionated summary of key tools for plotting in R, focusing primarily on the [tidyverse](https://www.tidyverse.org/) group of packages*:package:*.*
+-   [ggplot2](https://ggplot2.tidyverse.org/):package::unlock: – the most popular plotting framework based on the book, *Grammar of Graphics*
+-   [plotly](https://plot.ly/):package::unlock: – commercially supported interactive web-based visualization tools
+-   [Shiny](https://shiny.rstudio.com/):package::unlock: – interactive charts and applications on the web, great for displaying public data and generating publication website
+-   [reticulate](https://blog.rstudio.com/2018/03/26/reticulate-r-interface-to-python/):package::unlock: - interface with Python via R
+-   [ggplot2 Cheatsheet sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf):books: - quick overview of ggplot2 plotting functions and aesthetics
+- [ggplot2 Tutorial](https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html#introduction):books: - Harvard tutorial on getting started with ggplot2
+- [R Graph Gallery](https://www.r-graph-gallery.com/):books: - gallery of plots generated using R
+- [R for Data  Science](http://r4ds.had.co.nz/):books: - a **comprehensive** resource to become proficient at using R for all data science needs, written by lead instructors at [RStudio](https://www.rstudio.com/)
 
 #### Other Plotting tools
 
@@ -133,6 +165,22 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   Octave – Free version MATLAB
 -   [WebPlotDigitiazer](https://automeris.io/WebPlotDigitizer/)
 
+## Reproducible Analysis
+
+### General Principles
+- [Naming files and projects](https://speakerdeck.com/jennybc/how-to-name-files) :notebook:, a slide deck compiled by Jenny Bryan (@JennyBryan), software engineer at RStudio
+
+### R workflows
+- [drake](https://github.com/ropensci/drake) :package: – toolkit to build reproducible workflows that scale
+- rapport
+- knitr - allows to convert markdown, R, and plots/tables to html or PDF files, similar to Jupyter for python
+- workflowr
+- here - makes it easy for users to set directories and paths
+- ROpenSci
+
+### Python workflows
+- [Crash course in reproducible research in Python](http://t-redactyl.io/blog/2016/10/a-crash-course-in-reproducible-research-in-python.html) :notebook:
+
 ## Writing
 
 -   [Comparison of different text editors](https://pandoc-scholar.github.io/)
@@ -140,6 +188,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 ### TeX/LaTex
 
 - [LaTeX Thesis Template](https://github.com/mrsunny0/LaTeX-thesis)
+- [Rticles](https://github.com/rstudio/rticles)
 
 ### Markdown
 
@@ -150,8 +199,8 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 -   [Zotero](https://www.zotero.org/) :free: :unlock:
 -   [Mendeley](https://www.mendeley.com/) :free:
--   EndNote :moneybag:
--   Papers :moneybag:
+-   EndNote :dollar:
+-   Papers :dollar:
 -   Readcube
 -   Jabref
 
@@ -160,15 +209,15 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### Drawing
 
--   Adobe Illustrator :moneybag: :moneybag:
+-   Adobe Illustrator :moneybag:
 -   [Inkscape](https://inkscape.org/en/) :free: :unlock:
 -   Microsoft Powerpoint :hankey:
--   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :moneybag:
+-   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :dollar:
 
 ### Image Manipulation
 
--   Adobe Photoshop :moneybag: :moneybag:
--   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :moneybag:
+-   Adobe Photoshop :moneybag:
+-   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :dollar:
 -   [GIMP](https://www.gimp.org/) :free: :unlock: The GNU Image Manipulation Program
 -   ImageJ/Fiji :free: :unlock:
 
@@ -183,7 +232,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [ColorBrewer](http://colorbrewer2.org/) - web-based color palette tool with accessibility options ([R package](https://cran.r-project.org/web/packages/RColorBrewer/index.html))
 -   [Palettable](https://www.palettable.io) - similar to ColorBrewer with customizable color schemes ([Python package](https://jiffyclub.github.io/palettable/))
 -   [Adobe Color CC](https://color.adobe.com/create/color-wheel/) - select color schemes based on color wheel and color harmony
--   Ggsci - color plots
+-   [Ggsci](https://nanx.me/ggsci/) - color themes inspired by scientific journals, science fiction, and media
 -   [Viz-Palette](http://projects.susielu.com/viz-palette)
 -   [GenZ Yellow](https://tul.imgix.net/content/article/gen-z-yellow.jpg?auto=format,compress&w=740&h=486&fit=crop&crop=edges) :trollface:
 -   [Millenial Pink](https://i.guim.co.uk/img/media/d0105731685e5b2b3daecf2fa00c9affaba832f1/0_0_2560_1536/master/2560.jpg?width=620&quality=85&auto=format&usm=12&fit=max&s=264f8669796563668ae798cdc3073e35) :trollface:
@@ -210,14 +259,16 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### Poster Design Tools
 
--   Adobe Illustrator :moneybag: :moneybag:
+-   Adobe Illustrator :moneybag:
 -   [Inkscape](https://inkscape.org/en/)
 -   Microsoft Powerpoint :hankey:
--   Adobe InDesign :moneybag: :moneybag:
+-   Adobe InDesign :moneybag:
 
 ### Poster Templates
 
-- [null](link)
+- [Horizontal and Vertical Adobe Illustrator Poster Templates](https://github.com/atriassi/Scientific-poster-templates-and-resources) :free: :books: - by Alex Triassi. Takeaway: white-space friendly poster templates to get you started
+- [Horizontal and Vertical Adobe Illustrator and PowerPoint Poster Templates](https://github.com/tytoth/Poster-templates) :free: :books: - more poster templates to get you started
+- 
 
 ### Poster Galleries
 
@@ -250,7 +301,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### Flow Cytometry
 
-- [Flowjo](link) :moneybag: :moneybag:
+- [Flowjo](link) :moneybag:
 - [Cytoflow](http://bpteague.github.io/cytoflow/) :free: :unlock:
 
 ### Microscopy Analysis
@@ -258,7 +309,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 -   [CellProfiler](http://cellprofiler.org/)
 -   [ImageJ](https://imagej.nih.gov/ij/)
 
-## Unsorted Weblinks 
+## Unsorted Weblinks
 
 -   BLAST
 -   TCoffee
@@ -278,9 +329,12 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 ## Professional Resources
 
 - [Github Personal Webpage Boilerplate](https://academicpages.github.io/)
-- Incredible personal website examples
-    + [https://jef.works/](https://jef.works/)
-    + [https://www.nikhitasingh.com/](https://www.nikhitasingh.com/)
+- PhD/Post-Doctoral website examples
+    + [https://jef.works/](https://jef.works/) (Harvard, Bioinformatics)
+    + [https://www.nikhitasingh.com/](https://www.nikhitasingh.com/) (MIT Media Lab, AI)
+    + [https://davidlazar.org/](https://davidlazar.org/) (MIT CSAIL, Computing)
+    + [https://www.anishathalye.com/](https://www.anishathalye.com/) (MIT CSAIL, Computing)
+    + [https://slowkow.com/](https://slowkow.com/) (Harvard, Immunogenomics)
 
 ## Miscellaneous & Unsorted
 
@@ -290,4 +344,4 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [*kjmclean*](https://github.mit.edu/kjmclean) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [*MIT BECL*](https://github.com/MIT-BECL) has waived all copyright and related or neighboring rights to the compilation of this list, but not the resources included.
