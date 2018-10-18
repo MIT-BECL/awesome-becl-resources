@@ -187,10 +187,10 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 ### TeX/LaTex
 
+- [LaTeX Thesis Template](https://github.com/mrsunny0/LaTeX-thesis)
 - [Rticles](https://github.com/rstudio/rticles)
 
 ### Markdown
-
 
 -   [Pandoc](https://pandoc.org/) - for switching between .doc/.tex/.md/etc file types
 -   Microsoft Word
