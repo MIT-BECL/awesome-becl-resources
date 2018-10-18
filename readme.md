@@ -139,7 +139,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 
 ### TeX/LaTex
 
-- [null](link)
+- [LaTeX Thesis Template](https://github.com/mrsunny0/LaTeX-thesis)
 
 ### Markdown
 
