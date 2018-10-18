@@ -29,7 +29,6 @@ This list compiles resources to transform data into a clear message through:
 It also includes **resources for reproducibility** and miscellaneous tools for biological engineering research (e.g. plasmid design, flow cytometry analysis, next-generation sequencing).
 
 ---
-
 - [Legend](#legend)
 - [Computing](#computing)
   * [Programming](#programming)
@@ -45,7 +44,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
   * [R workflows](#r-workflows)
   * [Python workflows](#python-workflows)
 - [Writing](#writing)
-  * [TeX & LaTeX](#tex---latex)
+  * [LaTeX](#latex)
   * [Markdown](#markdown)
   * [Citations and Reference Management](#citations-and-reference-management)
 - [Figures](#figures)
@@ -71,6 +70,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 - [Professional Resources](#professional-resources)
 - [Miscellaneous & Unsorted](#miscellaneous---unsorted)
 - [License](#license)
+
 
 ## Legend
 
@@ -182,7 +182,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 -   [Comparison of different text editors](https://pandoc-scholar.github.io/)
 
-### TeX & LaTeX
+### LaTeX
 
 - [LaTeX Thesis Template](https://github.com/mrsunny0/LaTeX-thesis)
 - [Rticles](https://github.com/rstudio/rticles)
