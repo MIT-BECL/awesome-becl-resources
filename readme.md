@@ -266,6 +266,8 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 ### Poster Templates
 
 - [Horizontal and Vertical Adobe Illustrator Poster Templates](https://github.com/atriassi/Scientific-poster-templates-and-resources) :free: :books: - by Alex Triassi. Takeaway: white-space friendly poster templates to get you started
+- [Horizontal and Vertical Adobe Illustrator and PowerPoint Poster Templates](https://github.com/tytoth/Poster-templates) :free: :books: - more poster templates to get you started
+- 
 
 ### Poster Galleries
 
