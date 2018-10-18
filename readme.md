@@ -27,7 +27,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
     + [R Plotting](#r-plotting)
     + [Other Plotting tools](#other-plotting-tools)
 - [Writing](#writing)
-  * [TeX/LaTex](#TeX/LaTex)
+  * [TeX/LaTex](#tex-latex)
   * [Markdown](#markdown)
   * [Citations and Reference Management](#citations-and-reference-management)
 - [Figures](#figures)
@@ -142,7 +142,6 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 - [LaTeX Thesis Template](https://github.com/mrsunny0/LaTeX-thesis)
 
 ### Markdown
-
 
 -   [Pandoc](https://pandoc.org/) - for switching between .doc/.tex/.md/etc file types
 -   Microsoft Word
