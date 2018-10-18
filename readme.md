@@ -31,8 +31,6 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 ---
 
 # Contents
- * [And a table of contents](#and-a-table-of-contents)
-  * [On the right](#on-the-right)
   * [Legend](#legend)
   * [Computing](#computing)
     + [Programming](#programming)
