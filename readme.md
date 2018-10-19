@@ -31,36 +31,13 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 ---
 - [Legend](#legend)
 - [Computing](#computing)
-  * [Programming](#programming)
-  * [Computing Clusters at MIT](#computing-clusters-at-mit)
 - [Data Visualization](#data-visualization)
 - [Reproducible Analysis](#reproducible-analysis)
-  * [General Principles](#general-principles)
-  * [R workflows](#r-workflows)
-  * [Python workflows](#python-workflows)
 - [Writing](#writing)
-  * [LaTeX](#latex)
-  * [Markdown](#markdown)
-  * [Citations and Reference Management](#citations-and-reference-management)
 - [Figures](#figures)
-  * [Drawing](#drawing)
-  * [Image Manipulation](#image-manipulation)
 - [Design Tools & Resources](#design-tools---resources)
-  * [Color](#color)
-  * [Fonts & Typography](#fonts---typography)
-  * [Icons](#icons)
-  * [Images](#images)
 - [Poster Design](#poster-design)
-  * [Poster Design Tools](#poster-design-tools)
-  * [Poster Templates](#poster-templates)
-  * [Poster Galleries](#poster-galleries)
 - [Scientific Software](#scientific-software)
-  * [Chemical Structures](#chemical-structures)
-  * [Analytical Chemistry](#analytical-chemistry)
-  * [Protein Structure Visualization](#protein-structure-visualization)
-  * [Plasmid Editors](#plasmid-editors)
-  * [Flow Cytometry](#flow-cytometry)
-  * [Microscopy Analysis](#microscopy-analysis)
 - [Unsorted Weblinks](#unsorted-weblinks)
 - [Professional Resources](#professional-resources)
 - [Miscellaneous & Unsorted](#miscellaneous---unsorted)
@@ -81,7 +58,8 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 ---
 
 ## Computing
-
+ * [Programming](#programming)
+  * [Computing Clusters at MIT](#computing-clusters-at-mit)
 ### Programming
 *Students typical use the follow resources to analyze and plot data for class and research purposes.*
 
@@ -163,7 +141,9 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   [WebPlotDigitiazer](https://automeris.io/WebPlotDigitizer/)
 
 ## Reproducible Analysis
-
+* [General Principles](#general-principles)
+  * [R workflows](#r-workflows)
+  * [Python workflows](#python-workflows)
 ### General Principles
 - [Naming files and projects](https://speakerdeck.com/jennybc/how-to-name-files) :notebook:, a slide deck compiled by Jenny Bryan (@JennyBryan), software engineer at RStudio
 
@@ -179,7 +159,10 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 - [Crash course in reproducible research in Python](http://t-redactyl.io/blog/2016/10/a-crash-course-in-reproducible-research-in-python.html) :notebook:
 
 ## Writing
-
+ * [LaTeX](#latex)
+ * [Markdown](#markdown)
+ * [Citations and Reference Management](#citations-and-reference-management)
+  
 -   [Comparison of different text editors](https://pandoc-scholar.github.io/)
 
 ### LaTeX
@@ -203,7 +186,8 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 
 ## Figures
-
+ * [Drawing](#drawing)
+ * [Image Manipulation](#image-manipulation)
 ### Drawing
 
 -   Adobe Illustrator :moneybag:
@@ -223,6 +207,10 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 
 ## Design Tools & Resources
+ * [Color](#color)
+ * [Fonts & Typography](#fonts---typography)
+ * [Icons](#icons)
+ * [Images](#images)
 
 ### Color
 
@@ -253,6 +241,9 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 
 ## Poster Design
+* [Poster Design Tools](#poster-design-tools)
+* [Poster Templates](#poster-templates)
+* [Poster Galleries](#poster-galleries)
 
 ### Poster Design Tools
 
@@ -274,6 +265,12 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 
 ## Scientific Software
+* [Chemical Structures](#chemical-structures)
+* [Analytical Chemistry](#analytical-chemistry)
+* [Protein Structure Visualization](#protein-structure-visualization)
+* [Plasmid Editors](#plasmid-editors)
+* [Flow Cytometry](#flow-cytometry)
+* [Microscopy Analysis](#microscopy-analysis)
 
 ### Chemical Structures
 
@@ -307,6 +304,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   [ImageJ](https://imagej.nih.gov/ij/)
 
 ## Unsorted Weblinks
+
 
 -   BLAST
 -   TCoffee
