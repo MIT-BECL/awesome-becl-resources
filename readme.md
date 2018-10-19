@@ -17,7 +17,7 @@ Tools, tips, & resources compiled by fellows of the [MIT Biological Engineering 
 # Getting started
 Below is a list of resources compiled for BE Communication Lab fellows relevant to undergraduate, graduate students, and postdocs at MIT. Although there are some MIT-specific resources, this list is also relevant to any STEM student/researcher.
 
-The MIT BE Communication Lab resources are also stored within this repository and are highlighted within the list below. If you have any questions, email us at `becl@mit.edu`.
+The MIT BE Communication Lab resources are also stored within this repository and are highlighted within the list below. If you have any questions, email us at `mitbecl@gmail.com`.
 
 This list compiles resources to transform data into a clear message through:
 - **data analysis and visualization,**
