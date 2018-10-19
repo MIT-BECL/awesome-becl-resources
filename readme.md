@@ -118,6 +118,11 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 ---
 
 ## Data Visualization
+* [Data Visualization Resources](#data-visualization-resources)
+  * [Plotting Tools](#plotting-tools)
+    + [Python Plotting](#python-plotting)
+    + [R Plotting](#r-plotting)
+    + [Other Plotting tools](#other-plotting-tools)
 
 ### Data Visualization Resources
 
