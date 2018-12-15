@@ -66,6 +66,8 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 - [Python](https://www.python.org/) :free: :unlock: – general applicability, open-source; commonly used with [Anaconda](https://anaconda.org/), a package and environment manager
 
 - [R](https://www.r-project.org/) :free: :unlock: - popular for bioinformatics, genomics, statistics; typically used with [RStudio](https://www.rstudio.com/) :free: using packages from [CRAN](https://cran.r-project.org/)
+    - [RStudio introduction to R](https://support.rstudio.com/hc/en-us/articles/201141096-Getting-Started-with-R) - a good place to start for complete beginners.
+    - [Swirl](https://swirlstats.com/) teaches R within RStudio. A great interactive resource for beginners.
 
 - [MATLAB](https://www.mathworks.com/products/matlab.html) :moneybag: - commercial computing environment offered at MIT for affiliates. See [Gnu Octave](https://www.gnu.org/software/octave/) for an open source :unlock: alternative.
 
