@@ -171,7 +171,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 ### LaTeX
 
 - [LaTeX primer](https://github.com/mrsunny0/LaTeX-intro)
-- [LaTeX Thesis Template](https://github.com/mrsunny0/LaTeX-thesis-proposal)
+- [LaTeX Thesis Proposal Template](https://github.com/mrsunny0/LaTeX-thesis-proposal)
 - [LaTeX Thesis Defense Template](https://github.com/mrsunny0/LaTeX-thesis-defense)
 - [Rticles](https://github.com/rstudio/rticles)
 - [Wikibooks](https://en.wikibooks.org/wiki/LaTeX)
