@@ -121,6 +121,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   plotly – interactive web-based visualization
 -   altair – straightforward visualization framework, biased towards statistical plotting
 -   [Rpy2](http://rpy2.readthedocs.io/en/version\_2.8.x/) - use R code in jupyter notebook
+-   [BECL notes](https://github.com/mrsunny0/python-plotting-notes) - BECL-produced resource for python related plotting and getting started.
 
 #### R Plotting
 *This is an opinionated summary of key tools for plotting in R, focusing primarily on the [tidyverse](https://www.tidyverse.org/) group of packages*:package:*.*
@@ -169,8 +170,11 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 ### LaTeX
 
-- [LaTeX Thesis Template](https://github.com/mrsunny0/LaTeX-thesis)
+- [LaTeX primer](https://github.com/mrsunny0/LaTeX-intro)
+- [LaTeX Thesis Template](https://github.com/mrsunny0/LaTeX-thesis-proposal)
+- [LaTeX Thesis Defense Template](https://github.com/mrsunny0/LaTeX-thesis-defense)
 - [Rticles](https://github.com/rstudio/rticles)
+- [Wikibooks](https://en.wikibooks.org/wiki/LaTeX)
 
 ### Markdown
 
