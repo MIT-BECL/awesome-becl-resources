@@ -35,12 +35,12 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 - [Reproducible Analysis](#reproducible-analysis)
 - [Writing](#writing)
 - [Figures](#figures)
-- [Design Tools & Resources](#design-tools---resources)
+- [Design Tools & Resources](#design-tools-&amp;-resources)
 - [Poster Design](#poster-design)
 - [Scientific Software](#scientific-software)
 - [Unsorted Weblinks](#unsorted-weblinks)
 - [Professional Resources](#professional-resources)
-- [Miscellaneous & Unsorted](#miscellaneous---unsorted)
+- [Miscellaneous & Unsorted](#miscellaneous-&amp;-unsorted)
 - [License](#license)
 
 
@@ -200,6 +200,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   [Inkscape](https://inkscape.org/en/) :free: :unlock:
 -   Microsoft Powerpoint :hankey:
 -   [Affinity Designer](https://affinity.serif.com/en-us/designer/) :dollar:
+-   [BioRender](https://biorender.io/) :free:
 
 ### Image Manipulation
 
@@ -260,9 +261,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 
 ### Poster Templates
 
-- [Horizontal and Vertical Adobe Illustrator Poster Templates](https://github.com/atriassi/Scientific-poster-templates-and-resources) :free: :books: - by Alex Triassi. Takeaway: white-space friendly poster templates to get you started
-- [Horizontal and Vertical Adobe Illustrator and PowerPoint Poster Templates](https://github.com/tytoth/Poster-templates) :free: :books: - more poster templates to get you started
-- 
+- [Horizontal and Vertical Microsoft PowerPoint and Adobe Illustrator Poster Templates](https://github.com/MIT-BECL/Poster_Resources) :free: :books: - by Tyler Toth and Alex Triassi. Takeaway: white-space friendly poster templates to get you started
 
 ### Poster Galleries
 
