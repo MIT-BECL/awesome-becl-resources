@@ -35,12 +35,12 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 - [Reproducible Analysis](#reproducible-analysis)
 - [Writing](#writing)
 - [Figures](#figures)
-- [Design Tools & Resources](#design-tools-&amp;-resources)
+- [Design Tools & Resources](#design-tools---resources)
 - [Poster Design](#poster-design)
 - [Scientific Software](#scientific-software)
 - [Unsorted Weblinks](#unsorted-weblinks)
 - [Professional Resources](#professional-resources)
-- [Miscellaneous & Unsorted](#miscellaneous-&amp;-unsorted)
+- [Miscellaneous & Unsorted](#miscellaneous---unsorted)
 - [License](#license)
 
 
