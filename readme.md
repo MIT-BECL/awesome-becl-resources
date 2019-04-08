@@ -108,7 +108,7 @@ It also includes **resources for reproducibility** and miscellaneous tools for b
 -   [https://python-graph-gallery.com/](https://python-graph-gallery.com/)
 -   [https://www.data-to-viz.com/](https://www.data-to-viz.com/)
 - [Grammar of Graphics](https://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448/ref=as_li_ss_tl?ie=UTF8&qid=1477928463&sr=8-1&keywords=the+grammar+of+graphics&linkCode=sl1&tag=ggplot2-20&linkId=f0130e557161b83fbe97ba0e9175c431):books::moneybag: - landmark book on foundations in data visualization
-- [Plotting One Variable Distributions](https://github.com/joshpeters/One-Variable-Plotting-Cheatsheet) - BECL-produced resource for plotting bar graphs, boxplots, violin plots, and more. Includes example data set and raw code files.
+- [Plotting One Variable Distributions](https://github.com/MIT-BECL/Plotting-Distributions) - BECL-produced resource for plotting bar graphs, boxplots, violin plots, and more. Includes example data set and raw code files.
 
 ### Plotting Tools
 
